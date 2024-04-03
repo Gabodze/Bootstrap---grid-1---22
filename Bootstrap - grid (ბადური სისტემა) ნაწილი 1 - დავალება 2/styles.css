@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-Bold.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-SemiBold.ttf);
+}
+@font-face {
+    font-family: Mulish;
+    src: url(./fonts/Mulish-Regular.ttf);
+}
+
+
+body{
+    padding-top: 20px;
+}
+p{
+    margin: 0;
+}
+
+span{
+    font-family: Mulish;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.contentDiv{
+    border:1px solid #E8E7E7;
+    box-shadow: 1px 0 50px rgba(0, 0, 0, 0.08) ;
+    width: 213px;
+    height: 262px; 
+    /* background-color: aqua;  */
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    padding: 20px 20px 12px 20px;
+    justify-content: center;
+    border-radius: 12px;
+}
+
+.imgDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+
+.numDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 6px;
+    align-items:center ;
+}
+
+.p1{
+    height: 40px;
+    text-align:start;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 400;
+    color: #272927;
+}
+.p2, .spann{
+    height: 20px;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    color: #818181;
+}
+.spann{
+    font-size: 12px;
+    height: 15px;
+}
+
+.button1, .button2, .button3, .button4{
+    width: 58px;
+    height: 23px;
+    background-color: #F8DEBD;
+    border-radius: 4px;
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button2{
+   background-color: #FBF0F3;
+}
+
+.button3{
+    background-color: #D0FBFF;
+}
+
+.button4{
+    background-color: #F8BDBD;
+}
+
+
+
+.buttonDiagram>img{
+    width: 173px;
+    height: 83px;
+}
+
+@media only screen and (max-width: 767px) {
+    .contentDiv{
+        width: 100%;
+    }
+
+    .buttonDiagram>img{
+        width: 100%;
+    }
+  }
